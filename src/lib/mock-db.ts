@@ -23,12 +23,12 @@ export interface MockProduct {
   name_tr: string;
   name_ru: string;
   name_ky: string;
-  shortDesc_tr: string;
-  shortDesc_ru: string;
-  shortDesc_ky: string;
-  description_tr: string;
-  description_ru: string;
-  description_ky: string;
+  shortDesc_tr?: string;
+  shortDesc_ru?: string;
+  shortDesc_ky?: string;
+  description_tr?: string;
+  description_ru?: string;
+  description_ky?: string;
   price: number;
   discountPrice: number | null;
   discountStart?: string | null;
