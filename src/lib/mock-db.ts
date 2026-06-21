@@ -3,7 +3,7 @@
 // client-side veri yönetimi. Veriler localStorage üzerinde saklanır.
 // ============================================================
 
-const STORAGE_KEY = "belenay_demo_db_v1";
+const STORAGE_KEY = "belenay_demo_db_v2";
 
 export interface MockCategory {
   id: string;
