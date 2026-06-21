@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { BaseUser } from "@belenay/shared";
+import { BaseUser } from "@/types/shared";
 import { toast } from "sonner";
 
 interface AuthState {

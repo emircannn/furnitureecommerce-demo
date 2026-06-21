@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-import { CartItem } from "@belenay/shared";
+import { CartItem } from "@/types/shared";
 import { getImageUrl } from "@/lib/utils";
 import { useAuthStore } from "./useAuthStore";
 import { apiClient } from "@/lib/api-client";
